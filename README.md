@@ -55,8 +55,10 @@ A E B
 ```
 In this case, we see that it is valid for A to be North of and East of B at the same time.
 
+```
 A N B
 C N B
+```
 In this case, the relative position of A and C is ambiguous, other than that they are both north of B.
 
 Let’s take a look at another example, similar to the first provided example:
@@ -90,14 +92,14 @@ C N A
 
 we have the two graphs as
 
-###to_north graph
+### to_north graph
 ```
 A -> B
 B -> C
 C -> A
 ```
 
-###to_west graph
+### to_west graph
 ```
 C -> B
 ```
